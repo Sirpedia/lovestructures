@@ -1,46 +1,47 @@
+<!DOCTYPE html>
 <html>
-<title>
-lovestructures.com
+  <head>
+    <title>Lovestructures.com</title>
+    <style>
+      body {
+        width: 97vw;
+      }
+      h1 {
+        position: fixed;
+        left: 0vw;
+        top: 0vh;
+      }
+      .button-container {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        gap: 10vw;
+        position: absolute;
+        top: 7vh;
+      }
+      button {
+        font-size: 1vw;
+        background-color: white;
+        border: 0 solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Lovestructures.com</h1>
+    <div class="button-container">
+      <button onclick="AboutMe()">About Me</button>
+      <button>Music</button>
+      <button>Website Portal</button>
+      <button>Social Media</button>
+    </div>
 
+    <h2 id="webtext1" style="position:absolute; top: 11vh">Placement test</h2>
 
-
-</title>
-
-<body style="width: 97vw;">
-<h1 style="position:fixed;left:0vw;top:0vh">Lovestructures.com</h1>
-<div style="align-items: center;display: flex;justify-content: center; gap: 10vw; position:absolute; top: 7vh;">
-<button onclick="AboutMe()" style="font-size: 1vw;background-color: white;border: 0 solid black;">About Me</button>
-<button style="font-size: 1vw;background-color: white;border: 0 solid black;">Music</button>
-<button style="font-size: 1vw;background-color: white;border: 0 solid black;">Website Portal</button>
-<button style="font-size: 1vw;background-color: white;border: 0 solid black;"> Social Media </button>
-
-
-</div>
-
-
-<h2 id="webtext1" style="position:absolute; top: 11vh">Placement test</h2>
-
-
-<script>
-  const Sub1 = document.getElementById("webtext1")
-    function AboutMe() {
-Sub1.innerHTML = "My name is Carson, and I proudly go by the handle @lovestructures. I have the rich and diverse heritage of being both Cuban and African American, which has given me a unique perspective on life and culture. This blend of backgrounds not only shapes my identity but also fuels my passion for exploring the world around me and sharing my experiences with others. In addition to my cultural roots, I find immense joy in playing the piano and composing music, letting the melodies flow through my fingers as a form of self-expression. I also enjoy the intellectual challenge of playing chess, constantly honing my strategic thinking and problem-solving skills. Another quirky side of me is my love for creating seemingly "stupid" things and whimsical websites, which allow me to indulge in creativity and bring a bit of fun and humor to the online world. Whether it's through my personal stories, musical compositions, chess games, or playful creations, I love connecting with people from all walks of life and celebrating the beauty of our differences."
-
-  
-
-
-
-}
-
-
-
-  
-</script>
-
-
-  
-</body>
-
-
-
+    <script>
+      function AboutMe() {
+        const Sub1 = document.getElementById("webtext1");
+        Sub1.innerHTML = "My name is Carson, and I proudly go by the handle @lovestructures. I have the rich and diverse heritage of being both Cuban and African American, which has given me a unique perspective on life and culture. This blend of backgrounds not only shapes my identity but also fuels my passion for exploring the world around me and sharing my experiences with others. In addition to my cultural roots, I find immense joy in playing the piano and composing music, letting the melodies flow through my fingers as a form of self-expression. I also enjoy the intellectual challenge of playing chess, constantly honing my strategic thinking and problem-solving skills. Another quirky side of me is my love for creating seemingly 'stupid' things and whimsical websites, which allow me to indulge in creativity and bring a bit of fun and humor to the online world. Whether it's through my personal stories, musical compositions, chess games, or playful creations, I love connecting with people from all walks of life and celebrating the beauty of our differences.";
+      }
+    </script>
+  </body>
 </html>
