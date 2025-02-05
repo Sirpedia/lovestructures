@@ -31,7 +31,7 @@
     <div class="button-container">
       <button onclick="AboutMe()">About Me</button>
       <a href="https://sirpedia.github.io/BetterNotes/" target="_blank">
-      <button>Music</button>
+      <button onclick="Music()">Music</button>
       </a>
       <button>Website Portal</button>
       <button>Social Media</button>
@@ -40,9 +40,12 @@
     <h2 id="webtext1" style="position:absolute; top: 11vh; margin-left: 20vw; margin-right: 20vw;">Placement test</h2>
 
     <script>
+      const Sub1 = document.getElementById("webtext1");      
       function AboutMe() {
-        const Sub1 = document.getElementById("webtext1");
         Sub1.innerHTML = "My name is Carson, and I proudly go by the handle @lovestructures. I have the rich and diverse heritage of being both Cuban and African American, which has given me a unique perspective on life and culture. This blend of backgrounds not only shapes my identity but also fuels my passion for exploring the world around me and sharing my experiences with others. In addition to my cultural roots, I find immense joy in playing the piano and composing music, letting the melodies flow through my fingers as a form of self-expression. I also enjoy the intellectual challenge of playing chess, constantly honing my strategic thinking and problem-solving skills. Another quirky side of me is my love for creating seemingly 'stupid' things and whimsical websites, which allow me to indulge in creativity and bring a bit of fun and humor to the online world. Whether it's through my personal stories, musical compositions, chess games, or playful creations, I love connecting with people from all walks of life and celebrating the beauty of our differences.";
+      }
+      function Music() {
+        Sub1.innerHTML = "Music Page Opened In new tab"
       }
     </script>
   </body>
